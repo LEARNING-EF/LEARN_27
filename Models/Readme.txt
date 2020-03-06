@@ -18,7 +18,7 @@ var transactions =
 	databaseContext.Transactions
 	.Where(current => current.AccountCode.Id = ...)
 	.ToList()
-
+	;
 
 var transactions =
 	databaseContext.Transactions
